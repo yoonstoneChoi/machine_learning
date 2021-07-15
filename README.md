@@ -1,2 +1,2 @@
 # machine_learning
-Изучение машинного обучения, практическое применение
+This is a repository for machine learning learning and practice.
