@@ -3,7 +3,7 @@ import numpy as np
 class Perceptron:
     ## 생성자
     ## 초기값, default값 생성
-    ## thresholds : 임계값, 계싼된 예측값을 비교하는 값
+    ## thresholds : 임계값, 계산된 예측값을 비교하는 값
     ## eta : 학습률
     ## n_iter : 학습횟수
     def __init__(self, thresholds = 0.0 , eta =0.01, n_iter = 10): ## 생성자 매써드
@@ -15,7 +15,7 @@ class Perceptron:
     def fit(self, X, y):
         ## 가중치를 담을 행렬 생성
         ## shape[1]은 행렬 중에 행이다.
-        self.w_ = np.zeros(1 + X.shape[1]) 
+        self.w_ = np.zeros(1 + X.shape[1])  ## w백터 생성
 
         #예측값과 실제값을 비교해서, 다른 예측값의 개수를 담을 리스트
         self.errors_ = []
