@@ -3,14 +3,30 @@
 
 
 
+
 ## 사용 모델
 - linear Regression
 - Perceptron
 
 
+
+
+## 레포지토리
+- iris.perceptron : iris 데이터를 perceptron모델을 통한 분석 자료
+    - perceptron.py : class 보관
+    - main.py : 모델 실행 및 예측
+
+- linear_Regression : ecommerce관련 데이터를 회귀분석을 통한 분석 자료
+    - ecommerce_regression : 데이터 확인 및 모델 생성, 평가
+
+
+
+
 ## 사용된 데이터 
 - iris.data 
 - ecommerce.csv
+
+
 
 
 ## 사용된 라이브러리
