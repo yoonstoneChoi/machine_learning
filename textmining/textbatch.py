@@ -35,8 +35,11 @@
 
 
 
-from step1_GetData import step1_GetData
+#from textmining.step3_learning import step3_learning
+#from step1_GetData import step1_GetData
+#from step2_Preprocessing import step2_Preprocessing
+from step3_learning import step3_learning
 
-
-
-step1_GetData()
+#step1_GetData()
+#step2_Preprocessing()
+step3_learning()
